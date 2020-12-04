@@ -1,0 +1,144 @@
+@media (max-width: 1140px) {
+  .credit-list {
+    margin-bottom: 16px;
+  }
+
+  ul li {
+    margin-bottom: 6px;
+  }
+
+  h2.project-name {
+
+    margin-bottom: 12px;
+  }
+}
+
+@media (max-width: 960px) {
+  .credit-list {
+    margin-bottom: 12px;
+  }
+
+  ul li {
+    margin-bottom: 6px;
+  }
+
+  h2.project-name {
+
+    margin-bottom: 8px;
+  }
+
+  div.info-content {
+    width: 40vw;
+  }
+
+  img.heart {
+    width: 8px;
+    margin-right: 6px;
+  }
+
+  div.social-nav img {
+    width: 16px;
+  }
+
+  div.social-nav a {
+    padding: 0 4px;
+  }
+
+  div.social-nav {
+    border-top: 2px dashed black;
+    border-left: 2px dashed black;
+    border-right: 2px dashed black;
+    padding: 4px 8px;
+    font-size: 20px;
+  }
+
+  nav.links a.about {
+    margin: 0 0 0 16px;
+  }
+
+  nav.links {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding: 8px 12px;
+    display: flex;
+    border-bottom: 2px dashed #0f0f0f;
+    border-right: 2px dashed #0f0f0f;
+    border-left: 2px dashed #0f0f0f;
+  }
+}
+
+@media (max-width: 840px) {
+  div.description {
+    display: none;
+  }
+
+
+  section.about-copy p {
+
+    width: 50vw;
+  }
+
+}
+
+@media (max-width: 740px) {
+
+  div.ball {
+    display: none;
+  }
+
+  .inner-marquee {
+    border-bottom: 2px dashed #0f0f0f;
+  }
+
+  h2.project-name {
+    margin-bottom: 8px;
+  }
+
+  .section-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .content {
+    top: initial;
+    transform: none;
+    width: initial;
+  }
+
+  div.art-content {
+    padding-right: 0px;
+  }
+
+  img.images {
+    float: left;
+    width: 63vw;
+  }
+
+  div.info-content {
+    width: initial;
+    top: initial;
+    transform: none;
+    padding: 16px;
+    text-align: center;
+  }
+
+  div.info-container {
+    width: 63vw;
+  }
+
+  ul li {
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media (max-width: 390px) {
+  section.about-copy p {
+    width: 70vw;
+    border: 2px dashed #0f0f0f;
+    padding: 8px;
+  }
+}

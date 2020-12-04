@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css?family=Space+Mono:400,400i,700,700i&display=swap');
+
+@font-face {
+font-family: "Moonhouse";
+src: url('fonts/moonhouse.ttf');
+}
+
+:root {
+  --body-font-size: 14px;
+  --body-line-height: 1;
+  --body-font: "Space Mono";
+  --h2-font-size: 24px;
+  --h2-font: 'Space Mono';
+  --p-font-size: 36px;
+  --p-font: 'Space Mono', monospace;
+  --header-nav-size: 16px;
+  --header-nav-font: 'Space Mono';
+  --h6-font-size: 16px;
+  --h6-font: 'Space Mono';
+  --marquee-font: "Moonhouse";
+  --marquee-line-height: '.6';
+  --marquee-font-size: 8vmin;
+}
+
+@media (max-width: 1140px) {
+  :root {
+    --body-font-size: 12px;
+    --body-line-height: 1;
+    --body-font: "Space Mono";
+    --h2-font-size: 20px;
+    --h2-font: 'Space Mono';
+    --p-font-size: 20px;
+    --p-font: 'Space Mono', monospace;
+    --header-nav-size: 14px;
+    --header-nav-font: 'Space Mono';
+    --h6-font-size: 14px;
+  }
+}
+
+@media (max-width: 960px) {
+  :root {
+    --body-font-size: 12px;
+    --body-line-height: 1;
+    --body-font: "Space Mono";
+    --h2-font-size: 16px;
+    --h2-font: 'Space Mono';
+    --p-font-size: 20px;
+    --p-font: 'Space Mono', monospace;
+    --header-nav-size: 12px;
+    --header-nav-font: 'Space Mono';
+    --h6-font-size: 12px;
+  }
+}
+
+@media (max-width: 840px) {
+  :root {
+    --body-font-size: 12px;
+    --body-line-height: 1;
+    --h2-font-size: 16px;
+    --p-font-size: 20px;
+    --header-nav-size: 12px;
+    --h6-font-size: 12px;
+  }
+
+}
+
+@media (max-width: 740px) {
+  :root {
+    --body-font-size: 12px;
+    --body-line-height: 1;
+    --h2-font-size: 14px;
+    --p-font-size: 20px;
+    --header-nav-size: 12px;
+    --h6-font-size: 10px;
+  }
+}
+
+@media (max-width: 390px) {
+  :root {
+    --body-font-size: 12px;
+    --body-line-height: 1;
+    --h2-font-size: 12px;
+    --header-nav-size: 12px;
+    --h6-font-size: 10px;
+    --p-font-size: 14px;
+  }
+}
+
+
+body {
+  font-size: var(--body-font-size);
+  line-height: var(--body-line-height);
+  font-family: var(--body-font);
+}
+
+div.description {
+  line-height: 1.3;
+}
+
+
+.marquee span {
+  line-height: .7;
+  font-size: var(--marquee-font-size);
+  font-family: var(--marquee-font);
+  color: #0b0b0b;
+  font-style: italic;
+}
+
+section.about-copy p {
+  font-size: var(--p-font-size);
+  font-family: var(--p-font);
+}
+
+header nav {
+  font-size: var(--header-nav-size);
+  font-family: var(--header-nav-font);
+  font-style: italic;
+  text-transform: uppercase;
+}
+
+nav.links a.underline {
+  border-bottom: 3px solid #0f0f0f;
+  font-style: normal;
+}
+
+h2 {
+  font-size: var(--h2-font-size);
+  font-family: var(--h2-font);
+  font-weight: 700;
+}
+
+h6 {
+  font-size: var(--h6-font-size);
+  font-family: var(--h6-font);
+  text-transform: uppercase;
+  font-style: italic;
+}
