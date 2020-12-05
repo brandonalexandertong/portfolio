@@ -1,0 +1,34 @@
+---
+layout: base-layout.njk
+pagination:
+  data: collections.job
+  size: 10
+  reverse: true
+  alias: jobs
+
+---
+{% for job in jobs %}
+<section class="s2 ">
+  <div class="section-wrapper">
+
+    <div class="art-content content">
+      <div class="image-container">
+        <div .second-div>
+          <a href="{{ job.data.spotifyLink | url }}" target="_blank"><img src="images/{{ job.data.coverArt }}" class="images"></a>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="info-container content">
+      <div class="info-content ">
+        <h2 class="project-name">{{ job.data.projectName }}</h2>
+        <ul class="credit-list">
+          {{ job.data.creditList }}
+        </ul>
+      </div>
+    </div>
+
+  </div>
+</section>
+{% endfor %}

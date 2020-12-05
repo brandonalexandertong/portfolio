@@ -120,6 +120,10 @@ nav.links a.about {
   overflow: hidden;
 }
 
+.hover {
+  cursor: pointer;
+}
+
 
 section.about-copy {
   align-items: center;
