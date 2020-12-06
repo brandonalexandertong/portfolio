@@ -19,24 +19,7 @@ layout: base-layout.njk
       <div class="info-content ">
         <h2 class="project-name">{{ projectName }}</h2>
         <ul class="credit-list">
-        <li>
-          <div class="list-wrapper">
-            <img class="heart" src="images/heart.svg">
-            <h6>{{ credit-1 }}</h6>
-          </div>
-        </li>
-        <li>
-          <div class="list-wrapper">
-            <img class="heart" src="images/heart.svg">
-            <h6>{{ credit-2 }}</h6>
-          </div>
-        </li>
-        <li>
-          <div class="list-wrapper">
-            <img class="heart" src="images/heart.svg">
-            <h6>{{ credit-3 }}</h6>
-          </div>
-        </li>
+        {{ content | safe}}
         </ul>
       </div>
     </div>
