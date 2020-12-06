@@ -5,8 +5,9 @@ pagination:
   size: 10
   reverse: true
   alias: jobs
-
+  
 ---
+
 {% for job in jobs %}
 <section class="s2 ">
   <div class="section-wrapper">
@@ -24,7 +25,19 @@ pagination:
       <div class="info-content ">
         <h2 class="project-name">{{ job.data.projectName }}</h2>
         <ul class="credit-list">
-          {{ job.data.creditList }}
+          <li>
+            <div class="list-wrapper">
+              <img class="heart" src="images/heart.svg">
+              <h6>{{ job.data.credit1 }}</h6>
+            </div>
+          </li>
+          <li>
+            <div class="list-wrapper">
+              <img class="heart" src="images/heart.svg">
+              <h6>{{ job.data.credit2 }}</h6>
+            </div>
+          </li>
+
         </ul>
       </div>
     </div>
